@@ -1,0 +1,70 @@
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar-brand img
+{
+    height: 95px;
+    padding-left: 30px;
+}
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+.navbar-nav li a
+{
+    float: right;
+    text-align: left;
+}
+#nav-bar ul li a:hover
+{
+    color: #007bff!important;
+}
+.navbar
+{
+    background: #fff;
+}
+.navbar-toggler
+{
+    border: none!important;
+}
+.nav-link
+{
+    color: #555!important;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/* Data screens */
+
+#data-screens {
+  display: flex;
+  justify-content: space-around; /* This will evenly space the flex items */
+  padding: 20px; /* Add some padding around the items */
+}
+
+.title {
+  width: 100%; /* Make the title span the full width */
+  text-align: center; /* Center the title text */
+  margin-top: 20px; /* Add some space above the title */
+}
+
+/* General style for each data block */
+.data-block {
+  text-align: center; /* Center the text inside each block */
+  margin: 20px; /* Add some margin for spacing between blocks */
+}
+
+.data-block h2 {
+  margin-bottom: 20px; /* Space between the header and the number */
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.data-block h4 {
+  display: inline-block;
+  border: 5px solid #000;
+  padding: 50px; /* Padding around the number */
+}
